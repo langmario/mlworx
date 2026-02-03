@@ -1,17 +1,21 @@
 ---
-
+import Logo from "../assets/MLWX.svg";
+import "../assets/global.css";
 ---
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
+		<link rel="icon" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>ML WORX</title>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body
+		class="bg-gray-300 text-white dark:bg-gray-950 flex flex-col justify-center items-center gap-16 h-dvh"
+	>
+		<Logo class="fill-current mx-auto max-w-lg drop-shadow-2xl/25" />
+		<p class="text-xl font-extrabold drop-shadow-lg">ML WORX</p>
 	</body>
 </html>
